@@ -143,11 +143,6 @@ export default {
           this.$emit('task', task)
           this.initForm()
           this.visable = false
-          // if (this.task.id) { // edit
-
-          // } else { // add
-
-          // }
         }
       })
     },

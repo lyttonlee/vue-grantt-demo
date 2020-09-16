@@ -1,7 +1,7 @@
 <template>
   <div class="page">
-    <h2>甘特图基本操作</h2>
-    <Gantt :key="1" :tasks="tasks" :options="options" />
+    <h2>甘特图基本操作(点击任务内容可以修改任务)</h2>
+    <Gantt :key="1" :tasks="tasks" :options="options" :dynamicStyle="{background: 'none'}" />
     <Modal :task="temTask" :tasks="tasks" @task="getTask" ref="taskModel" />
   </div>
 </template>

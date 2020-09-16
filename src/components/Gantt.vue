@@ -34,7 +34,6 @@ export default {
             'Task list width': '列表宽度',
             'Display task list': '显示模式'
           }
-          
         }
       }
     }
