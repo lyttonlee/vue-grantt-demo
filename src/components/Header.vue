@@ -3,6 +3,7 @@
     <template v-for="(route, index) in routes">
       <router-link class="item" :key="index" :to="route.path" exact >{{route.name}}</router-link>
     </template>
+    <a class="item" href="https://github.com/lyttonlee/vue-grantt-demo" target="_black">Github</a>
   </div>
 </template>
 <script>

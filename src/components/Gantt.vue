@@ -6,7 +6,8 @@
   </div>
 </template>
 <script>
-import GanttElastic from "gantt-elastic";
+// import GanttElastic from "gantt-elastic";
+import GanttElastic from "gantt-elastic-style";
 import Header from "gantt-elastic-header";
 // import bus from '../bus/bus';
 import moment from 'moment'

@@ -34,13 +34,13 @@ export default {
     // } else {
     //   maxLen = planB.length
     // }
-    const compare = (parentId) => {
-      console.log(parentId)
-    }
+    // const compare = (parentId) => {
+    //   console.log(parentId)
+    // }
     let maxLen = Math.max(planA.length, planB.length)
     for (let i = 0; i < maxLen; i++) {
       // if (planA[i].parentId || planB[i].parentId) return
-      compare(planA[i].id)
+      // compare(planA[i].id)
       if (planA[i] && planB[i]) {
         let type = ''
         Object.keys(planB[i]).forEach((key) => {
